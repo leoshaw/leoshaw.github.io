@@ -1,0 +1,31 @@
+body {
+  padding: 0 1em;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+.company-dates {
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+}
+
+.job-title {
+  margin: 0;
+}
+
+.role-detail {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 0;
+}
+
+.section-heading {
+  margin: 1em 0 0.5em 0;
+}
+
+.sub-project {
+  font-weight: normal;
+  margin: 0.5em 0 0 0;
+}
