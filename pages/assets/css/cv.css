@@ -1,4 +1,6 @@
 body {
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 0 1em;
 }
 
@@ -12,8 +14,21 @@ p {
   margin: 0;
 }
 
-.job-title {
+.role-title {
   margin: 0;
+}
+
+.role-company {
+  display: inline-block;
+  font-size: 1.4em;
+  font-style: italic;
+  width: fit-content;
+}
+
+.role-dates {
+  float: right;
+  font-size: 1.4em;
+  font-style: italic;
 }
 
 .role-detail {
