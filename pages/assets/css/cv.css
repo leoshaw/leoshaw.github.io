@@ -14,7 +14,31 @@ p {
   margin: 0;
 }
 
+.contact-details {
+  display: none;
+}
+
+.main-header {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.profile-links {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-links li {
+  display: inline-block;
+}
+
+.profile-links li + li:before {
+  content: " | ";
+  padding: 0 0.2em;
+}
+
 .role-title {
+  font-size: 1.4em;
   margin: 0;
 }
 
@@ -44,4 +68,9 @@ p {
   font-weight: normal;
   margin: 0.5em 0 0 0;
   text-decoration: underline;
+}
+
+.subject {
+  font-size: 2em;
+  margin-bottom: 0.1em;
 }

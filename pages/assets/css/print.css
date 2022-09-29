@@ -6,8 +6,23 @@ body {
   font-size: 12pt;
 }
 
-.print-header {
+.contact-details {
+  background: center / contain no-repeat url(/assets/images/contact.svg);
   display: block;
+  line-height: 1em;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.no-print {
+  display: none;
+}
+
+.print-only {
+  display: block;
+}
+
+.subject {
   font-size: 1.2em;
-  margin-bottom: 2em;
+  margin: 0 0 0.2em 0;
 }
