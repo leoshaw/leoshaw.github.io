@@ -4,6 +4,20 @@ body {
   line-height: 1.5;
 }
 
+.horizontal-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-menu li {
+  display: inline-block;
+}
+
+.horizontal-menu li + li:before {
+  content: " | ";
+  padding: 0 0.2em;
+}
+
 .print-only {
   display: none;
 }
